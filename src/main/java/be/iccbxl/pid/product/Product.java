@@ -10,6 +10,7 @@ public class Product {
 	private int id;
 	private String name;
 	private double price;
+	private String color;
 	
 	public Product() {
 		super();
@@ -44,6 +45,14 @@ public class Product {
 
 	public void setPrice(double price) {
 		this.price = price;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
 	}
 	
 	
